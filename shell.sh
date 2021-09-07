@@ -15,4 +15,4 @@ function httpRequest()
     fi
 }
  
-httpRequest "http://vhost680.0070.xyz/api.php/timming/index.html?enforce=1&name=%E7%99%BE%E5%BA%A6%E8%A7%86%E9%A2%91"
+httpRequest "$1"
