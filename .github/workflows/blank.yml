@@ -6,9 +6,9 @@ name: GitHub Actions Task Bot
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  schedule:
+  # 定时任务，在每天的5点执行采集操作
+    - cron: '0 21 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
