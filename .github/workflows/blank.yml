@@ -33,4 +33,3 @@ jobs:
       # Runs a single command using the runners shell 2
       - name: Run a two-line script
         run: bash ./shell.sh https://video.258369.cf/api.php/timming/index.html?enforce=1&name=cc
-
